@@ -1,0 +1,202 @@
+[
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['crouched', 'earthnut', 'uncaptived', 'musculomembranous', 'aldebaranium', 'amishgo', 'diplegia', 'tectospondyli']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['whinberry', 'okra', 'vernonin', 'truffle', 'caesardom', 'streng', 'succotash', 'composition']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['duplicitas', 'punch', 'giraffe', 'circumscript', 'grapnel', 'bivalent']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['style', 'aculeata', 'catechistic', 'dermatozoonosis', 'punch', 'eperua', 'grapnel']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['monosomic', 'bass', 'impenitent', 'rightwardly', 'liv']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['vanille', 'settledly', 'thallome', 'calliope', 'fissureless']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['funambulism', 'ophthalmophlebotomy', 'nonconservation', 'paratitla', 'phosphoritic']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['skating', 'landloper', 'dwarfism', 'ectosteal', 'judo', 'cycling']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['attire', 'digamist', 'drag', 'canicola', 'uniform', 'bullimong']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['brazer', 'hellenism', 'work-clothes', 'phoenigm', 'solutizer', 'nonclimbable']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['spike', 'quitch', 'ratherly', 'trustworthily', 'rowanberry', 'pismirism', 'pyxidium', 'undeliverable', 'phellodendron']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['tarpaulin', 'rosehip', 'alnoite', 'psorosperm', 'hip', 'tilting', 'roguish', 'pyxidium', 'quandong']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['hurtle', 'projectile', 'sliceable', 'pandarus', 'skibob']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['Dodgem', 'headlongs', 'nonair', 'skibob', 'projectile', 'isothermally']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['darzee', 'noometry', 'autocephality', 'counter', 'semioviparous', 'geoty', 'cogging', 'falconidae']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['seldomly', 'deadlatch', 'bureau', 'fitment', 'strange', 'lamp', 'buffet', 'ashrafi']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['civism', 'petcock', 'tactics', 'skiing', 'retrogress', 'clause', 'archery', 'legioner']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['midweekly', 'funambulism', 'middle', 'racing', 'botanizer', 'noncertainty', 'equitation', 'exhaustingly']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['stockwork', 'pumpkin', 'pieplant', 'enticing', 'hamiltonism', 'smalt', 'finocchio', 'materiation']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['anatomist', 'emigrate', 'greens', 'pantelephonic', 'mediterraneous', 'auloi', 'earthnut', 'regulate', 'unapologetic']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['metazoan', 'unpenetrable', 'peeper', 'marbelize', 'topotactic']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['pleurodont', 'offspring', 'calinut', 'girdle', 'zooplankton', 'misgraft']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'craft', 'sliverer', 'staphylomatic', 'sleigh', 'labium', 'prevalidity']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sledge', 'sled', 'oxygenator', 'mesocoelian', 'outsound', 'hyperalgetic', 'eulogia']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['vanillate', 'angiocholitis', 'provisorship', 'squashberry', 'pounder', 'grapple', 'covenantor']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['federationist', 'heliotypic', 'clincher', 'pliohippus', 'shirtless', 'unhygrometric', 'drill']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['autobolide', 'calliope', 'excommunicate', 'technologist', 'wind', 'elytrostenosis']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['unreflecting', 'metabiology', 'uncram', 'pausefully', 'wind']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['serratile', 'lamaic', 'smothery', 'fennel', 'green']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['greens', 'pumpkin', 'whitrack', 'consistorian', 'certioration']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['mate', 'cesious', 'angelonia', 'archaeocyathus', 'untentered', 'sideswipe', 'sesquiplicate']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['mate', 'cancerism', 'unkaiserlike', 'obeche', 'biped', 'martyrdom', 'saururaceous', 'rhacophorus']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['sledding', 'udal', 'mythopoeic', 'untaint', 'unopportune']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['racketer', 'solutionist', 'morin', 'rowing', 'powderman', 'untrustworthily']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['reprover', 'bismuthide', 'psychographist', 'lameness', 'sideboard', 'bristle', 'theorization', 'touser']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['hairdress', 'perioikoi', 'zoogamete', 'primordium', 'ginkgoaceous', 'counter', 'reseal']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['stromata', 'petromyzon', 'trustiness', 'dunair', 'ninefold', 'spiderling', 'pounder', 'zoogenic']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['larbowlines', 'gayish', 'abrader', 'hyolithoid', 'unoriginality', 'asperously', 'strickle', 'unforlorn', 'bellylike']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['betocsin', 'notifiable', 'rowing', 'operation', 'nontimbered', 'melocoton']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['pareiasauri', 'cycling', 'petrifactive', 'racing', 'rowing', 'sharnbud', 'anthoecological']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['adpromission', 'unsported', 'anisogenous', 'archaeopteryx', 'dickeybird', 'agranuloplastic', 'unacclimatized']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['unfuturistic', 'heathered', 'countertrespass', 'raptor', 'retroposition', 'carinate']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['underpinning', 'twitterer', 'raptor', 'sciaenid', 'unauthentical', 'enhelm', 'snoutish']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['Ibero-mesornis', 'carinate', 'blastochyle', 'impedimenta', 'hen', 'quantize']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['clipped', 'overflow', 'roter', 'dicky-bird', 'carinate']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['ranunculaceous', 'Sinornis', 'insulation', 'diactinic', 'hen', 'cock']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['wind', 'antisurplician', 'maza', 'mellonides', 'antegarden', 'eoside', 'atropinization']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['pinweed', 'aristarchy', 'venal', 'calliope', 'pharyngoplegic', 'draffy', 'wind']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['green', 'unsticky', 'mushroom', 'hider', 'oblation']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['tartaric', 'greens', 'keyboard', 'retroposition', 'disilane']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['plumps', 'cirsium', 'quandong', 'biconvex', 'chokecherry', 'unpassionately', 'subdivisible', 'watchment']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['bentang', 'rowanberry', 'counterboycott', 'cubeb', 'acaena', 'sapsucker', 'drupe']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['nongassy', 'azotic', 'prointervention', 'quandong', 'seed']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['vifda', 'drupe', 'woolstock', 'sorgo', 'draco', 'excruciable']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['ultranationalist', 'craft', 'epsomite', 'decemjugate', 'tunica', 'excarnation', 'ponderously', 'ramisection']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sledge', 'unbeauteousness', 'enlight', 'unexhausted', 'extrusile', 'skibob', 'scutibranchia', 'unopposable', 'mastocarcinoma']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['prey', 'minotaur', 'melanoplakia', 'cumin', 'psittaciformes', 'shavianism', 'cupellation']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['pyrewinkes', 'prorhipidoglossomorpha', 'critter', 'bathymetrically', 'palaeographic', 'excessiveness', 'varment', 'hyosternum']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'steamroller', 'autopositive', 'babbittism', 'hypnotistic', 'Dodgem']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['merogamy', 'dogproof', 'parakinesia', 'unravelable', 'craft', 'acoemetic']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['urticaria', 'pseudocarp', 'pod', 'phenolsulphonephthalein', 'hectocotyle']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['squench', 'whinnel', 'countershade', 'metacism', 'cubeb']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['antidisciplinarian', 'hurdy-gurdy', 'sawfly', 'verrucose', 'calliope']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['springwurzel', 'avolation', 'lycopsida', 'wind', 'straightforwardly']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['chrysin', 'punch', 'sasanqua', 'officialese', 'grapnel', 'incommiscible', 'parage', 'kabaragoya']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['whewt', 'covalence', 'grappler', 'ultraspartan', 'vet', 'producership', 'babelet']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['danian', 'annelides', 'bionomically', 'dickybird', 'compsognathus', 'mau', 'nester', 'suberin']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['laryngotomy', 'gallinacean', 'connexive', 'caban', 'ebionitism', 'cock', 'ratite', 'nester']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['vivandiere', 'infrascapularis', 'prelateship', 'hexapod', 'perisomial', 'angerly', 'bronchial']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['chancroid', 'quarry', 'mutant', 'godded', 'unpersuadable', 'cancellous', 'increasing']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['nonfossiliferous', 'hypermotility', 'chilopod', 'altho', 'stormingly', 'ruellia', 'hexapod', 'turbocompressor']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['gradin', 'adult', 'bewilderingly', 'female', 'mate', 'satinpod', 'cyclothymiac']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['quandong', 'cubeb', 'galleylike', 'calycanthaceae', 'unpunishedness', 'unlassoed']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['pseudocarp', 'hip', 'overstridently', 'preimagine', 'moribundly', 'advisable', 'told']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'feedbin', 'saururae', 'multijugate', 'inroll', 'daleman', 'chouka']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['vestiture', 'counterdistinguish', 'accessory', 'regarding', 'spermatospore', 'hormic', 'array']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['hurdy-gurdy', 'wind', 'petioliventres', 'calliope', 'essentia', 'orational', 'finnip', 'ethynyl']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['mand', 'bass', 'ketene', 'cnidaria', 'alimental', 'calliope', 'aftergo']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'nonindependent', 'vestiture', 'unconsiderately', 'phaenogamous', 'curiology', 'sebific']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['chondrostei', 'fixed', 'overclothes', 'xylol', 'cal', 'handwear', 'neckpiece']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['celery', 'writee', 'hypophyseoprivous', 'glucosidal', 'latex', 'greens', 'eugenesis', 'pythoninae', 'pampean']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['leek', 'martin', 'limsy', 'uncontentedness', 'finocchio', 'fennel', 'bloomkin', 'plushiness', 'cardoon', 'grewia']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['auletes', 'trochoides', 'posttibial', 'scorpiurus', 'paleolith', 'gang', 'rattish']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['swarve', 'upset', 'exhaustedness', 'pelamyd', 'jollity', 'walleyed']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['shropshire', 'transmissively', 'frowl', 'dysaphia', 'raiment']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['cajole', 'hypercivilized', 'dionym', 'unidealized', 'headdress', 'pitilessness']\nAnswer: (3)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['dresser', 'quercitin', 'bookcase', 'hanaster', 'buffet', 'comfortlessness', 'impendence']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['tylotate', 'daygoing', 'chest', 'knobbler', 'boer', 'untripped']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['entocoelic', 'riding', 'contumelious', 'sledding', 'gage']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['row', 'bournonite', 'laevogyrous', 'fieriness', 'rowing', 'aquatics']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['leto', 'lovelily', 'craft', 'frescade', 'unbiological', 'uncounteracted', 'sled', 'poophyte', 'notochord']\nAnswer: (2)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'beatster', 'unlifelike', 'Dodgem', 'omnirevealing', 'serolin', 'projectile', 'bulkily', 'sleigh']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['iliocostalis', 'longevous', 'seat', 'hostship', 'missyish', 'santal', 'tenable']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['residencer', 'fitment', 'seat', 'literate', 'substandardize', 'supersovereign', 'sideboard']\nAnswer: (2)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['lernaeacea', 'simpleheartedness', 'springly', 'dicky-bird', 'leglen', 'palaeobotanic', 'remount']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['passerine', 'cock', 'erucic', 'archeopteryx', 'desertfully', 'rhombical', 'disavowal']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['immaterialness', 'table', 'chemiotaxis', 'likesome', 'awalim', 'etagere', 'closet']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['hieroglyphy', 'Sheraton', 'hyperdactylia', 'stillicidium', 'epiphysary', 'fitment', 'wreathwise']\nAnswer: (1)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['footwear', 'uranicentric', 'dirgeman', 'woodcock', 'vestiture', 'binoxide', 'acanth', 'attire']\nAnswer: (3)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['array', 'preachership', 'ultrasystematic', 'paroicous', 'apparel', 'outstorm', 'change', 'cimiciform', 'drag']\nAnswer: (1)"
+  ]
+]

@@ -1,0 +1,1580 @@
+{
+  "model_name": "google/gemma-2-2b",
+  "overall_accuracy": 0.01,
+  "category_metrics": {
+    "animal": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 9,
+        "undercounting": 0
+      }
+    },
+    "bird": {
+      "accuracy": 0.125,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 7,
+        "undercounting": 0
+      }
+    },
+    "furniture": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 10,
+        "undercounting": 0
+      }
+    },
+    "instrument": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 8,
+        "undercounting": 0
+      }
+    },
+    "vegetable": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 7,
+        "undercounting": 0
+      }
+    },
+    "clothing": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 14,
+        "undercounting": 0
+      }
+    },
+    "tool": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 6,
+        "undercounting": 0
+      }
+    },
+    "vehicle": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 16,
+        "undercounting": 0
+      }
+    },
+    "sport": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 9,
+        "undercounting": 0
+      }
+    },
+    "fruit": {
+      "accuracy": 0.0,
+      "error_types": {
+        "no_answer": 0,
+        "overcounting": 13,
+        "undercounting": 0
+      }
+    }
+  },
+  "length_metrics": {
+    "4": {
+      "accuracy": 0.0,
+      "count": 6
+    },
+    "5": {
+      "accuracy": 0.0,
+      "count": 12
+    },
+    "6": {
+      "accuracy": 0.0,
+      "count": 13
+    },
+    "7": {
+      "accuracy": 0.05,
+      "count": 20
+    },
+    "8": {
+      "accuracy": 0.0,
+      "count": 20
+    },
+    "9": {
+      "accuracy": 0.0,
+      "count": 15
+    },
+    "10": {
+      "accuracy": 0.0,
+      "count": 6
+    },
+    "11": {
+      "accuracy": 0.0,
+      "count": 8
+    }
+  },
+  "error_distribution": {
+    "no_answer": 0,
+    "overcounting": 99,
+    "undercounting": 0,
+    "correct": 1
+  },
+  "detailed_results": [
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['cenogenesis', 'limnite', 'viscosimetry', 'feign', 'trellis', 'darter', 'stayer', 'mishnah', 'metamorphose']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['cenogenesis', 'limnite', 'viscosimetry', 'feign', 'trellis', 'darter', 'stayer', 'mishnah', 'metamorphose']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "darter",
+        "stayer"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['immaterialness', 'table', 'chemiotaxis', 'likesome', 'awalim', 'etagere', 'closet']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['immaterialness', 'table', 'chemiotaxis', 'likesome', 'awalim', 'etagere', 'closet']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "table",
+        "etagere",
+        "closet"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['obeliscar', 'dickybird', 'ratite', 'holeless', 'forebear', 'enfoldment', 'parrot', 'cressed', 'Sinornis', 'underhanded']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['obeliscar', 'dickybird', 'ratite', 'holeless', 'forebear', 'enfoldment', 'parrot', 'cressed', 'Sinornis', 'underhanded']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "Sinornis",
+        "ratite",
+        "parrot",
+        "dickybird"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['beadsman', 'syncarp', 'pod', 'unamalgamating', 'distrainment', 'esophagocele', 'finnish', 'cubeb']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['beadsman', 'syncarp', 'pod', 'unamalgamating', 'distrainment', 'esophagocele', 'finnish', 'cubeb']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "pod",
+        "cubeb",
+        "syncarp"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['boyarism', 'steamroller', 'hyperacoustics', 'Dodgem', 'naturopathist', 'sleigh', 'penniferous', 'clatsop', 'flurriedly']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['boyarism', 'steamroller', 'hyperacoustics', 'Dodgem', 'naturopathist', 'sleigh', 'penniferous', 'clatsop', 'flurriedly']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sleigh",
+        "Dodgem",
+        "steamroller"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['crib', 'dresser', 'trophic', 'attestation', 'cadenced', 'unrevenging', 'table', 'bedstead', 'acroesthesia', 'bigot']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['crib', 'dresser', 'trophic', 'attestation', 'cadenced', 'unrevenging', 'table', 'bedstead', 'acroesthesia', 'bigot']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "table",
+        "dresser",
+        "bedstead"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['grey', 'probationary', 'togs', 'cookroom', 'drag', 'mulctable', 'endoperitonitis', 'hisn', 'otosalpinx', 'headdress']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['grey', 'probationary', 'togs', 'cookroom', 'drag', 'mulctable', 'endoperitonitis', 'hisn', 'otosalpinx', 'headdress']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "togs",
+        "grey",
+        "drag",
+        "headdress"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['gymnastics', 'fingerfish', 'orthonectida', 'priapuloidea', 'ceorl', 'funambulism']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['gymnastics', 'fingerfish', 'orthonectida', 'priapuloidea', 'ceorl', 'funambulism']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "gymnastics",
+        "funambulism"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'feedbin', 'saururae', 'multijugate', 'inroll', 'daleman', 'chouka']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'feedbin', 'saururae', 'multijugate', 'inroll', 'daleman', 'chouka']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "handwear"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['strickle', 'tartronate', 'decarboxylate', 'multiareolate', 'upset', 'duress', 'fork', 'acalephae', 'rounder', 'antipellagric']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['strickle', 'tartronate', 'decarboxylate', 'multiareolate', 'upset', 'duress', 'fork', 'acalephae', 'rounder', 'antipellagric']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "upset",
+        "rounder",
+        "fork",
+        "strickle"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['overmantel', 'surfacing', 'archesporial', 'resoap', 'legume', 'celery', 'chakram', 'julienne', 'mustelus', 'rhubarb', 'inteneration']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['overmantel', 'surfacing', 'archesporial', 'resoap', 'legume', 'celery', 'chakram', 'julienne', 'mustelus', 'rhubarb', 'inteneration']\nAnswer: (8)\n\nCount the number of words in the",
+      "predicted_count": 8,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "julienne",
+        "rhubarb",
+        "legume",
+        "celery"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['pelmatozoan', 'press', 'gesticulator', 'feis', 'autosyn']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['pelmatozoan', 'press', 'gesticulator', 'feis', 'autosyn']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "press"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['funambulism', 'ophthalmophlebotomy', 'nonconservation', 'paratitla', 'phosphoritic']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['funambulism', 'ophthalmophlebotomy', 'nonconservation', 'paratitla', 'phosphoritic']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "funambulism"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['hurtle', 'projectile', 'sliceable', 'pandarus', 'skibob']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['hurtle', 'projectile', 'sliceable', 'pandarus', 'skibob']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "projectile",
+        "skibob"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['footwear', 'uranicentric', 'dirgeman', 'woodcock', 'vestiture', 'binoxide', 'acanth', 'attire']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['footwear', 'uranicentric', 'dirgeman', 'woodcock', 'vestiture', 'binoxide', 'acanth', 'attire']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "attire",
+        "footwear",
+        "vestiture"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['shropshire', 'transmissively', 'frowl', 'dysaphia', 'raiment']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['shropshire', 'transmissively', 'frowl', 'dysaphia', 'raiment']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "raiment"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['squidge', 'burman', 'dressmaker', 'archaeopteryx', 'archaeornis', 'hen']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['squidge', 'burman', 'dressmaker', 'archaeopteryx', 'archaeornis', 'hen']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "hen",
+        "archaeornis",
+        "archaeopteryx"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['jezreelite', 'that', 'chest', 'unphysically', 'needleproof', 'regionalization', 'cucoline']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['jezreelite', 'that', 'chest', 'unphysically', 'needleproof', 'regionalization', 'cucoline']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "chest"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['cree', 'intermingle', 'schizocarp', 'seed', 'spongiidae', 'inguinal', 'pyxis', 'glumpish', 'achene', 'circled']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['cree', 'intermingle', 'schizocarp', 'seed', 'spongiidae', 'inguinal', 'pyxis', 'glumpish', 'achene', 'circled']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "achene",
+        "schizocarp",
+        "pyxis",
+        "seed"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['plumps', 'cirsium', 'quandong', 'biconvex', 'chokecherry', 'unpassionately', 'subdivisible', 'watchment']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['plumps', 'cirsium', 'quandong', 'biconvex', 'chokecherry', 'unpassionately', 'subdivisible', 'watchment']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "chokecherry",
+        "quandong"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['calliope', 'nonsulphurous', 'foundryman', 'affirmance', 'wind', 'hurdy-gurdy', 'psammolithic', 'bass', 'zenaga']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['calliope', 'nonsulphurous', 'foundryman', 'affirmance', 'wind', 'hurdy-gurdy', 'psammolithic', 'bass', 'zenaga']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "calliope",
+        "wind",
+        "hurdy-gurdy",
+        "bass"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['kitalpha', 'scrappler', 'contactor', 'sideboard', 'elfhood', 'intraglobular', 'Sheraton']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['kitalpha', 'scrappler', 'contactor', 'sideboard', 'elfhood', 'intraglobular', 'Sheraton']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "sideboard",
+        "Sheraton"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sled', 'intraepiphyseal', 'amphodiplopia', 'animability']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sled', 'intraepiphyseal', 'amphodiplopia', 'animability']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sled"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['civism', 'petcock', 'tactics', 'skiing', 'retrogress', 'clause', 'archery', 'legioner']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['civism', 'petcock', 'tactics', 'skiing', 'retrogress', 'clause', 'archery', 'legioner']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "archery",
+        "skiing"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sleigh', 'crumbly', 'bridehead', 'Dodgem', 'rocket', 'expeditionary', 'craft', 'illecebrous', 'smelter']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sleigh', 'crumbly', 'bridehead', 'Dodgem', 'rocket', 'expeditionary', 'craft', 'illecebrous', 'smelter']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "Dodgem",
+        "sleigh",
+        "rocket",
+        "craft"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['reprover', 'bismuthide', 'psychographist', 'lameness', 'sideboard', 'bristle', 'theorization', 'touser']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['reprover', 'bismuthide', 'psychographist', 'lameness', 'sideboard', 'bristle', 'theorization', 'touser']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "sideboard"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['subhalide', 'brabagious', 'toppler', 'gourd', 'dissolutive', 'syncarp', 'oxywelding', 'spinogalvanization']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['subhalide', 'brabagious', 'toppler', 'gourd', 'dissolutive', 'syncarp', 'oxywelding', 'spinogalvanization']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "syncarp",
+        "gourd"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['paucispirated', 'hip', 'counterreason', 'fruitlet', 'fe', 'rosedrop', 'chokecherry', 'pome']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['paucispirated', 'hip', 'counterreason', 'fruitlet', 'fe', 'rosedrop', 'chokecherry', 'pome']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "chokecherry",
+        "fruitlet",
+        "pome",
+        "hip"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['germal', 'odiousness', 'skating', 'sledding', 'row', 'silkalene', 'cycling']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['germal', 'odiousness', 'skating', 'sledding', 'row', 'silkalene', 'cycling']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "sledding",
+        "skating",
+        "row",
+        "cycling"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['coapostate', 'slops', 'garment', 'uniform', 'oilstove', 'accoutrement', 'acridiidae']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['coapostate', 'slops', 'garment', 'uniform', 'oilstove', 'accoutrement', 'acridiidae']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "uniform",
+        "garment",
+        "slops",
+        "accoutrement"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['judo', 'rowing', 'overpoweringly', 'funambulism', 'assertable', 'preludiously']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['judo', 'rowing', 'overpoweringly', 'funambulism', 'assertable', 'preludiously']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "funambulism",
+        "rowing",
+        "judo"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['vivandiere', 'infrascapularis', 'prelateship', 'hexapod', 'perisomial', 'angerly', 'bronchial']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['vivandiere', 'infrascapularis', 'prelateship', 'hexapod', 'perisomial', 'angerly', 'bronchial']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "hexapod"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'nonindependent', 'vestiture', 'unconsiderately', 'phaenogamous', 'curiology', 'sebific']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['handwear', 'nonindependent', 'vestiture', 'unconsiderately', 'phaenogamous', 'curiology', 'sebific']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "vestiture",
+        "handwear"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['spike', 'quitch', 'ratherly', 'trustworthily', 'rowanberry', 'pismirism', 'pyxidium', 'undeliverable', 'phellodendron']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['spike', 'quitch', 'ratherly', 'trustworthily', 'rowanberry', 'pismirism', 'pyxidium', 'undeliverable', 'phellodendron']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "rowanberry",
+        "pyxidium",
+        "spike"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['betocsin', 'notifiable', 'rowing', 'operation', 'nontimbered', 'melocoton']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['betocsin', 'notifiable', 'rowing', 'operation', 'nontimbered', 'melocoton']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "rowing"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['marasca', 'sulvanite', 'rowanberry', 'decompoundly', 'moxieberry', 'gerb', 'whewellite', 'pyxis', 'croyden']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['marasca', 'sulvanite', 'rowanberry', 'decompoundly', 'moxieberry', 'gerb', 'whewellite', 'pyxis', 'croyden']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "pyxis",
+        "marasca",
+        "rowanberry"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['autoconduction', 'palaeography', 'unliterally', 'gongorism', 'pome']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['autoconduction', 'palaeography', 'unliterally', 'gongorism', 'pome']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "pome"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['inadmissible', 'bass', 'deserveless', 'pelecan', 'dysphotic', 'wind', 'revengeable', 'tidological', 'dalarnian', 'calliope', 'hurdy-gurdy']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['inadmissible', 'bass', 'deserveless', 'pelecan', 'dysphotic', 'wind', 'revengeable', 'tidological', 'dalarnian', 'calliope', 'hurdy-gurdy']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "bass",
+        "hurdy-gurdy",
+        "calliope",
+        "wind"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['parachromoparous', 'uvular', 'pathed', 'projectile', 'skibob', 'uneasefulness', 'sledge', 'reparative', 'proctorage', 'Dodgem', 'unimbodied']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['parachromoparous', 'uvular', 'pathed', 'projectile', 'skibob', 'uneasefulness', 'sledge', 'reparative', 'proctorage', 'Dodgem', 'unimbodied']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "skibob",
+        "projectile",
+        "sledge",
+        "Dodgem"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['federationist', 'heliotypic', 'clincher', 'pliohippus', 'shirtless', 'unhygrometric', 'drill']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['federationist', 'heliotypic', 'clincher', 'pliohippus', 'shirtless', 'unhygrometric', 'drill']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "drill",
+        "clincher"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['craft', 'prosopic', 'counterdeclaration', 'odoom']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['craft', 'prosopic', 'counterdeclaration', 'odoom']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "craft"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'craft', 'sliverer', 'staphylomatic', 'sleigh', 'labium', 'prevalidity']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'craft', 'sliverer', 'staphylomatic', 'sleigh', 'labium', 'prevalidity']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "craft",
+        "sleigh",
+        "rocket"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['steamroller', 'sled', 'stockbrokerage', 'projectile', 'craft', 'mazzard', 'periodontitis', 'vagariously']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['steamroller', 'sled', 'stockbrokerage', 'projectile', 'craft', 'mazzard', 'periodontitis', 'vagariously']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "projectile",
+        "steamroller",
+        "sled",
+        "craft"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['haplodonty', 'spitfire', 'pieplant', 'fennel', 'mesaticephalic', 'pumpkin']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['haplodonty', 'spitfire', 'pieplant', 'fennel', 'mesaticephalic', 'pumpkin']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "pieplant",
+        "fennel",
+        "pumpkin"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['urticaria', 'pseudocarp', 'pod', 'phenolsulphonephthalein', 'hectocotyle']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['urticaria', 'pseudocarp', 'pod', 'phenolsulphonephthalein', 'hectocotyle']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "pseudocarp",
+        "pod"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['monosomic', 'bass', 'impenitent', 'rightwardly', 'liv']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['monosomic', 'bass', 'impenitent', 'rightwardly', 'liv']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "bass"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['dickeybird', 'topee', 'difformed', 'cyclonoscope', 'pholad', 'ballooner', 'returnable', 'prefloration']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['dickeybird', 'topee', 'difformed', 'cyclonoscope', 'pholad', 'ballooner', 'returnable', 'prefloration']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "dickeybird"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['gentlemouthed', 'skibob', 'morbidity', 'party', 'rocket', 'craft']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['gentlemouthed', 'skibob', 'morbidity', 'party', 'rocket', 'craft']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "rocket",
+        "skibob",
+        "craft"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['antlerite', 'anticogitative', 'prizeworthy', 'subangular', 'wongen', 'celery', 'morphotropy', 'tellinaceous', 'green', 'fennel']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['antlerite', 'anticogitative', 'prizeworthy', 'subangular', 'wongen', 'celery', 'morphotropy', 'tellinaceous', 'green', 'fennel']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "fennel",
+        "celery",
+        "green"
+      ],
+      "list_length": 10
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['trachelitis', 'chaetangium', 'biddulphia', 'cardoon', 'legume', 'anacyclus', 'flutelike', 'gumbo', 'liparididae', 'pieplant', 'mellowly']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['trachelitis', 'chaetangium', 'biddulphia', 'cardoon', 'legume', 'anacyclus', 'flutelike', 'gumbo', 'liparididae', 'pieplant', 'mellowly']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "pieplant",
+        "gumbo",
+        "cardoon",
+        "legume"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['slurry', 'cyclocoelic', 'corylaceous', 'sled', 'overscutched', 'instructive']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['slurry', 'cyclocoelic', 'corylaceous', 'sled', 'overscutched', 'instructive']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sled"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['lleu', 'fosterable', 'craft', 'projectile', 'lymantriid', 'stormbird', 'cyclanthaceae', 'Dodgem']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['lleu', 'fosterable', 'craft', 'projectile', 'lymantriid', 'stormbird', 'cyclanthaceae', 'Dodgem']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "projectile",
+        "craft",
+        "Dodgem"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['winfred', 'paginal', 'wingedly', 'dress', 'headgear', 'togs', 'monosepalous']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['winfred', 'paginal', 'wingedly', 'dress', 'headgear', 'togs', 'monosepalous']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "headgear",
+        "dress",
+        "togs"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['patuxent', 'herbivore', 'prad', 'unagonize']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['patuxent', 'herbivore', 'prad', 'unagonize']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "herbivore"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['ratite', 'passerine', 'ganglionectomy', 'dickey-bird', 'intertubercular', 'sheriff', 'microchemically', 'countfish', 'argasid', 'twitterer', 'metabrushite']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['ratite', 'passerine', 'ganglionectomy', 'dickey-bird', 'intertubercular', 'sheriff', 'microchemically', 'countfish', 'argasid', 'twitterer', 'metabrushite']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "twitterer",
+        "dickey-bird",
+        "ratite",
+        "passerine"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['male', 'pumple', 'tarazed', 'pourer', 'jeopardize', 'podosomatous']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['male', 'pumple', 'tarazed', 'pourer', 'jeopardize', 'podosomatous']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "male"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['hornedness', 'sidecheck', 'pyxidium', 'meo', 'portcrayon', 'achene', 'twinkles', 'rowanberry']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['hornedness', 'sidecheck', 'pyxidium', 'meo', 'portcrayon', 'achene', 'twinkles', 'rowanberry']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "achene",
+        "rowanberry",
+        "pyxidium"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['attire', 'digamist', 'drag', 'canicola', 'uniform', 'bullimong']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['attire', 'digamist', 'drag', 'canicola', 'uniform', 'bullimong']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "uniform",
+        "attire",
+        "drag"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['prey', 'minotaur', 'melanoplakia', 'cumin', 'psittaciformes', 'shavianism', 'cupellation']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['prey', 'minotaur', 'melanoplakia', 'cumin', 'psittaciformes', 'shavianism', 'cupellation']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "prey"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['metazoan', 'unpenetrable', 'peeper', 'marbelize', 'topotactic']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['metazoan', 'unpenetrable', 'peeper', 'marbelize', 'topotactic']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "peeper",
+        "metazoan"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['pseudocarp', 'hip', 'overstridently', 'preimagine', 'moribundly', 'advisable', 'told']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['pseudocarp', 'hip', 'overstridently', 'preimagine', 'moribundly', 'advisable', 'told']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "hip",
+        "pseudocarp"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['overrange', 'presagefully', 'regalia', 'jolleyman', 'creationism', 'curricular', 'electroosmosis', 'black']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['overrange', 'presagefully', 'regalia', 'jolleyman', 'creationism', 'curricular', 'electroosmosis', 'black']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "regalia",
+        "black"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['craft', 'rebind', 'unlichened', 'steamroller', 'charer', 'visual', 'havana', 'filace', 'sled', 'skibob', 'zink']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['craft', 'rebind', 'unlichened', 'steamroller', 'charer', 'visual', 'havana', 'filace', 'sled', 'skibob', 'zink']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "steamroller",
+        "skibob",
+        "craft",
+        "sled"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['hurdy-gurdy', 'munific', 'calliope', 'wind', 'defease', 'bass', 'subrision', 'haptene']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['hurdy-gurdy', 'munific', 'calliope', 'wind', 'defease', 'bass', 'subrision', 'haptene']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "bass",
+        "calliope",
+        "wind",
+        "hurdy-gurdy"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['dresser', 'quercitin', 'bookcase', 'hanaster', 'buffet', 'comfortlessness', 'impendence']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['dresser', 'quercitin', 'bookcase', 'hanaster', 'buffet', 'comfortlessness', 'impendence']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "dresser",
+        "buffet",
+        "bookcase"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['prosecution', 'threadflower', 'keratodermia', 'epigonic', 'outerwear', 'foreglow', 'accouterment', 'millivoltmeter', 'unsuppurated']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['prosecution', 'threadflower', 'keratodermia', 'epigonic', 'outerwear', 'foreglow', 'accouterment', 'millivoltmeter', 'unsuppurated']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "accouterment",
+        "outerwear"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['racing', 'congratulation', 'oblivious', 'vilela', 'funambulism', 'meticulously', 'assizer', 'gymnorhinal', 'blastostyle']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['racing', 'congratulation', 'oblivious', 'vilela', 'funambulism', 'meticulously', 'assizer', 'gymnorhinal', 'blastostyle']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "racing",
+        "funambulism"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['hoe', 'abradant', 'cudbear', 'pounder', 'ichthyodorulite', 'inadhesion', 'ram']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['hoe', 'abradant', 'cudbear', 'pounder', 'ichthyodorulite', 'inadhesion', 'ram']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "abradant",
+        "pounder",
+        "ram",
+        "hoe"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['hyaloid', 'livier', 'leontocephalous', 'calliope', 'axite', 'tetraketone', 'hurdy-gurdy', 'bass', 'buntline']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['hyaloid', 'livier', 'leontocephalous', 'calliope', 'axite', 'tetraketone', 'hurdy-gurdy', 'bass', 'buntline']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "hurdy-gurdy",
+        "calliope",
+        "bass"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['clipped', 'overflow', 'roter', 'dicky-bird', 'carinate']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['clipped', 'overflow', 'roter', 'dicky-bird', 'carinate']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "carinate",
+        "dicky-bird"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['disenthrone', 'thunderstruck', 'langsyne', 'varment', 'heteronymy', 'female', 'homotherm', 'adult', 'dulcin']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['disenthrone', 'thunderstruck', 'langsyne', 'varment', 'heteronymy', 'female', 'homotherm', 'adult', 'dulcin']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "homotherm",
+        "adult",
+        "varment",
+        "female"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['wardrobe', 'wrathily', 'sugared', 'karl', 'cabinet', 'bedframe', 'counter']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['wardrobe', 'wrathily', 'sugared', 'karl', 'cabinet', 'bedframe', 'counter']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "bedframe",
+        "cabinet",
+        "counter",
+        "wardrobe"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['unfeedable', 'cardiaplegia', 'tamper', 'pleurisy', 'comb', 'abrader', 'plow', 'parvifoliate']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['unfeedable', 'cardiaplegia', 'tamper', 'pleurisy', 'comb', 'abrader', 'plow', 'parvifoliate']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "comb",
+        "plow",
+        "tamper",
+        "abrader"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['parsonhood', 'anchoret', 'mutant', 'fuirdays', 'suddenness', 'realisticize']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['parsonhood', 'anchoret', 'mutant', 'fuirdays', 'suddenness', 'realisticize']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "mutant"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['headdress', 'apparel', 'pholiota', 'submittance', 'rheumily', 'ichthyodorulite', 'gray', 'unhumbly', 'threads']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['headdress', 'apparel', 'pholiota', 'submittance', 'rheumily', 'ichthyodorulite', 'gray', 'unhumbly', 'threads']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "apparel",
+        "threads",
+        "headdress",
+        "gray"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['mathematic', 'gourd', 'ear', 'schizocarp', 'holoplankton', 'demicanton', 'shlu', 'acorn']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['mathematic', 'gourd', 'ear', 'schizocarp', 'holoplankton', 'demicanton', 'shlu', 'acorn']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "schizocarp",
+        "ear",
+        "acorn",
+        "gourd"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['antidisciplinarian', 'hurdy-gurdy', 'sawfly', 'verrucose', 'calliope']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['antidisciplinarian', 'hurdy-gurdy', 'sawfly', 'verrucose', 'calliope']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "hurdy-gurdy",
+        "calliope"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['autobolide', 'calliope', 'excommunicate', 'technologist', 'wind', 'elytrostenosis']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['autobolide', 'calliope', 'excommunicate', 'technologist', 'wind', 'elytrostenosis']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "calliope",
+        "wind"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['thaumasite', 'ocque', 'proctosigmoiditis', 'tap', 'posticous', 'cryptomonadales']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['thaumasite', 'ocque', 'proctosigmoiditis', 'tap', 'posticous', 'cryptomonadales']\nAnswer: (2)\n\nCount the number of words in the",
+      "predicted_count": 2,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "tap"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['press', 'table', 'sleeper', 'electromagnetical', 'unteacherlike', 'propionic', 'lampmaking', 'bib', 'etagere', 'scutter', 'bonnetless']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['press', 'table', 'sleeper', 'electromagnetical', 'unteacherlike', 'propionic', 'lampmaking', 'bib', 'etagere', 'scutter', 'bonnetless']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "table",
+        "press",
+        "sleeper",
+        "etagere"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['ootocoidean', 'daggerbush', 'icotype', 'aucaner', 'nest']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: furniture\nList: ['ootocoidean', 'daggerbush', 'icotype', 'aucaner', 'nest']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "furniture",
+      "matching_words": [
+        "nest"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['obtundity', 'funambulism', 'gessamine', 'row', 'cunye', 'unable', 'remittance', 'flavedo']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['obtundity', 'funambulism', 'gessamine', 'row', 'cunye', 'unable', 'remittance', 'flavedo']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "row",
+        "funambulism"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['reagreement', 'parrot', 'inchoateness', 'umbrous']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['reagreement', 'parrot', 'inchoateness', 'umbrous']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "parrot"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['cinerea', 'berkeleyism', 'disciform', 'beeway', 'thiazine', 'sledge', 'sleigh', 'bibasic']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['cinerea', 'berkeleyism', 'disciform', 'beeway', 'thiazine', 'sledge', 'sleigh', 'bibasic']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sleigh",
+        "sledge"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sledge', 'sled', 'enchylema', 'expendability', 'undiscipled']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['sledge', 'sled', 'enchylema', 'expendability', 'undiscipled']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sledge",
+        "sled"
+      ],
+      "list_length": 5
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'steamroller', 'autopositive', 'babbittism', 'hypnotistic', 'Dodgem']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['rocket', 'steamroller', 'autopositive', 'babbittism', 'hypnotistic', 'Dodgem']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "Dodgem",
+        "rocket",
+        "steamroller"
+      ],
+      "list_length": 6
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['unflippant', 'possum', 'bass', 'fogo', 'whereof', 'calliope', 'hypocystotomy', 'scamles', 'hurdy-gurdy']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['unflippant', 'possum', 'bass', 'fogo', 'whereof', 'calliope', 'hypocystotomy', 'scamles', 'hurdy-gurdy']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "instrument",
+      "matching_words": [
+        "bass",
+        "hurdy-gurdy",
+        "calliope"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['heterocoela', 'sledge', 'startly', 'adviser']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vehicle\nList: ['heterocoela', 'sledge', 'startly', 'adviser']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vehicle",
+      "matching_words": [
+        "sledge"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['lernaeacea', 'simpleheartedness', 'springly', 'dicky-bird', 'leglen', 'palaeobotanic', 'remount']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['lernaeacea', 'simpleheartedness', 'springly', 'dicky-bird', 'leglen', 'palaeobotanic', 'remount']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "bird",
+      "matching_words": [
+        "dicky-bird"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['tarnish', 'fork', 'grappler', 'equitemporaneous', 'sphyrnidae', 'unfluted', 'abradant', 'pecuniary']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['tarnish', 'fork', 'grappler', 'equitemporaneous', 'sphyrnidae', 'unfluted', 'abradant', 'pecuniary']\nAnswer: (6)\n\nCount the number of words in the",
+      "predicted_count": 6,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "tool",
+      "matching_words": [
+        "grappler",
+        "abradant",
+        "fork"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['skittle', 'milliform', 'nightclothes', 'theatrophobia', 'craniota', 'ratihabition', 'tetradactyl', 'colloquialist']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['skittle', 'milliform', 'nightclothes', 'theatrophobia', 'craniota', 'ratihabition', 'tetradactyl', 'colloquialist']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "nightclothes"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['mediator', 'disenthral', 'amphitruo', 'green', 'potherb', 'parotiditis', 'hapuku']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['mediator', 'disenthral', 'amphitruo', 'green', 'potherb', 'parotiditis', 'hapuku']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "green",
+        "potherb"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['change', 'handwear', 'clothes', 'combativeness', 'torydom', 'unindebtedness', 'unfetter']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['change', 'handwear', 'clothes', 'combativeness', 'torydom', 'unindebtedness', 'unfetter']\nAnswer: (5)\n\nCount the number of words in the",
+      "predicted_count": 5,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "clothes",
+        "change",
+        "handwear"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['occultness', 'legume', 'repatriation', 'julienne', 'cuke', 'quizzability', 'overseen', 'pelargonic', 'sibilatingly']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['occultness', 'legume', 'repatriation', 'julienne', 'cuke', 'quizzability', 'overseen', 'pelargonic', 'sibilatingly']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "julienne",
+        "legume",
+        "cuke"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['celery', 'writee', 'hypophyseoprivous', 'glucosidal', 'latex', 'greens', 'eugenesis', 'pythoninae', 'pampean']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: vegetable\nList: ['celery', 'writee', 'hypophyseoprivous', 'glucosidal', 'latex', 'greens', 'eugenesis', 'pythoninae', 'pampean']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "vegetable",
+      "matching_words": [
+        "greens",
+        "celery"
+      ],
+      "list_length": 9
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['tailor-made', 'franklinization', 'rebold', 'gwely', 'retentionist', 'unthroned', 'beachwear', 'inundation']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['tailor-made', 'franklinization', 'rebold', 'gwely', 'retentionist', 'unthroned', 'beachwear', 'inundation']\nAnswer: (7)\n\nCount the number of words in the",
+      "predicted_count": 7,
+      "correct_count": 2,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "clothing",
+      "matching_words": [
+        "tailor-made",
+        "beachwear"
+      ],
+      "list_length": 8
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['unendable', 'homoiotherm', 'actinonema', 'male', 'darter', 'predefrayal', 'survivor', 'globulicide', 'nondisingenuous', 'rebestowal', 'asperate']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['unendable', 'homoiotherm', 'actinonema', 'male', 'darter', 'predefrayal', 'survivor', 'globulicide', 'nondisingenuous', 'rebestowal', 'asperate']\nAnswer: (10)\n\nCount the number of words in",
+      "predicted_count": 10,
+      "correct_count": 4,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "animal",
+      "matching_words": [
+        "homoiotherm",
+        "survivor",
+        "darter",
+        "male"
+      ],
+      "list_length": 11
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['cycling', 'graminology', 'contrast', 'hydropathist']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: sport\nList: ['cycling', 'graminology', 'contrast', 'hydropathist']\nAnswer: (3)\n\nCount the number of words in the",
+      "predicted_count": 3,
+      "correct_count": 1,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "sport",
+      "matching_words": [
+        "cycling"
+      ],
+      "list_length": 4
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['malappropriate', 'dickeybird', 'twitterer', 'cock', 'nonretention', 'runboard', 'dicky-bird']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['malappropriate', 'dickeybird', 'twitterer', 'cock', 'nonretention', 'runboard', 'dicky-bird']\nAnswer: (4)\n\nCount the number of words in the",
+      "predicted_count": 4,
+      "correct_count": 4,
+      "is_correct": true,
+      "error_type": "correct",
+      "category": "bird",
+      "matching_words": [
+        "cock",
+        "dicky-bird",
+        "twitterer",
+        "dickeybird"
+      ],
+      "list_length": 7
+    },
+    {
+      "prompt": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['rhythmically', 'pyxidium', 'bulby', 'deemer', 'transplantation', 'achene', 'slubby', 'bipennate', 'schizocarp']\nAnswer: (",
+      "full_response": "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: fruit\nList: ['rhythmically', 'pyxidium', 'bulby', 'deemer', 'transplantation', 'achene', 'slubby', 'bipennate', 'schizocarp']\nAnswer: (8)\n\nCount the number of words in the",
+      "predicted_count": 8,
+      "correct_count": 3,
+      "is_correct": false,
+      "error_type": "overcounting",
+      "category": "fruit",
+      "matching_words": [
+        "schizocarp",
+        "achene",
+        "pyxidium"
+      ],
+      "list_length": 9
+    }
+  ]
+}

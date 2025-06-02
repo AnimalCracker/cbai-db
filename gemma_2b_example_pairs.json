@@ -1,0 +1,6 @@
+[
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['malappropriate', 'dickeybird', 'twitterer', 'cock', 'nonretention', 'runboard', 'dicky-bird']\nAnswer: (4)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: bird\nList: ['dickeybird', 'topee', 'difformed', 'cyclonoscope', 'pholad', 'ballooner', 'returnable', 'prefloration']\nAnswer: (6)"
+  ]
+]

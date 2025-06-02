@@ -23,8 +23,7 @@ class ModelEvaluator:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
             torch_dtype=torch.float16,
-            device_map=device,
-            load_in_8bit=True
+            device_map=device
         )
         
         # Clear CUDA cache after model loading

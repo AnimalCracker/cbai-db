@@ -1,0 +1,22 @@
+[
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['monosomic', 'bass', 'impenitent', 'rightwardly', 'liv']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['sabellaria', 'wind', 'constatory', 'bass', 'breadthless', 'stavrite']\nAnswer: (None)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['fingall', 'sublegislation', 'subheadquarters', 'galp', 'girellidae', 'deglaciation', 'abrader']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: tool\nList: ['ascella', 'plow', 'grapnel', 'bushel', 'tamper', 'arborvitae']\nAnswer: (None)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['skittle', 'milliform', 'nightclothes', 'theatrophobia', 'craniota', 'ratihabition', 'tetradactyl', 'colloquialist']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: clothing\nList: ['ready-to-wear', 'nonministerial', 'drag', 'work-clothing', 'footwear', 'anthogenesis', 'prof', 'naphthanthracene']\nAnswer: (None)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['epimeron', 'nigrify', 'unsymbolic', 'airscape', 'hurdy-gurdy', 'daggered']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: instrument\nList: ['mand', 'bass', 'ketene', 'cnidaria', 'alimental', 'calliope', 'aftergo']\nAnswer: (None)"
+  ],
+  [
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['mate', 'cesious', 'angelonia', 'archaeocyathus', 'untentered', 'sideswipe', 'sesquiplicate']\nAnswer: (1)",
+    "Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.\n\nType: animal\nList: ['polyborine', 'hexapod', 'racer', 'swad', 'balladism', 'bendingly']\nAnswer: (None)"
+  ]
+]

@@ -9,10 +9,11 @@ dependencies = [
     "torch>=2.0.0",
     "transformers>=4.36.0",
     "numpy>=1.24.0",
-    "accelerate>=0.25.0",  # For device mapping
-    "pandas>=2.0.0",       # For results analysis
-    "matplotlib>=3.7.0",   # For plotting
-    "seaborn>=0.12.0",    # For prettier plots
+    "accelerate>=0.25.0", # For device mapping
+    "pandas>=2.0.0", # For results analysis
+    "matplotlib>=3.7.0", # For plotting
+    "seaborn>=0.12.0", # For prettier plots
+    "huggingface-hub[cli]>=0.32.3",
 ]
 
 [build-system]
